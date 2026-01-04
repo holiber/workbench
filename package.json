@@ -27,7 +27,7 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint .",
+    "lint": "eslint --max-warnings=0 --no-error-on-unmatched-pattern \"**/*.ts\" \"**/*.tsx\"",
     "clean": "rm -rf dist"
   },
 
